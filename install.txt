@@ -1,0 +1,23 @@
+//-- initialization
+
+npm init
+bower init
+
+//-- global packages
+
+sudo npm install -g grunt-cli
+sudo npm install -g gulp
+sudo npm install karma-cli -g
+sudo npm install testem -g
+
+//-- local packages
+
+bower install angular -S
+bower install angular-mocks -S
+
+npm install jasmine-core --save-dev
+npm install karma karma-chrome-launcher karma-jasmine -save-dev
+npm install grunt grunt-contrib-connect grunt-karma load-grunt-tasks -save-dev
+npm install grunt-protractor-runner grunt-protractor-webdriver -save-dev
+npm install connect gulp-load-plugins -save-dev
+npm install phantomjs karma-phantomjs-launcher --save-dev
